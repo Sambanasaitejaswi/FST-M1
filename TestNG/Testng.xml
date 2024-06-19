@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FSTtests" parallel="classes">
+    <groups>
+        <run>
+            <include name="HeaderTests"/>
+        </run>
+    </groups>
+    <test name = "Activities">
+        <classes>
+
+            <class name="activities.Activity1"/>
+            <class name="activities.Activity2"/>
+            <class name="activities.Activity3"/>
+            <class name="activities.Activity4"/>
+            <class name="activities.Activity5"/>
+            <class name="activities.Activity6"/>
+            <class name="activities.Activity7"/>
+            <class name="suiteExample.DemoOne"/>
+            <class name="suiteExample.DemoTwo"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
