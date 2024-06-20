@@ -1,0 +1,1 @@
+// Activity 6 is covered in test runner
