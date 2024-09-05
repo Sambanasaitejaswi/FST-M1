@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+    <test name="SuiteTests" >
+        <classes>
+            <class name="SuiteExample.DemoOne"/>
+            <class name="SuiteExample.DemoTwo"/>
+        </classes>
+    </test>
+    <suite parallel="false" name="Suite">
+        <test name="test">
+            <classes>
+                <class name="Activity7"/>
+            </classes>
+        </test>
+</suite>
+</suite>
